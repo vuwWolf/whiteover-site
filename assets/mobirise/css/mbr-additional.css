@@ -3177,6 +3177,27 @@ a {
 .cid-ud9ULJIM3D h6 {
   line-height: 1.2;
 }
+.cid-ud9ULJIM3D mg[tabindex="0"] {
+  cursor: zoom-in;
+}
+.cid-ud9ULJIM3D img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  max-width: 99%;
+  max-height: 99%;
+  margin: auto;
+  box-shadow: 0 0 20px #000000, 0 0 0 1000px rgba(210, 210, 210, 0.4);
+}
+.cid-ud9ULJIM3D img[tabindex="0"]:focus ~ * {
+  pointer-events: none;
+  cursor: zoom-out;
+}
 .cid-ud9ULJIM3D img,
 .cid-ud9ULJIM3D .item-img {
   width: 100%;
@@ -3186,7 +3207,7 @@ a {
   outline: none;
 }
 .cid-ud9ULJIM3D .item {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 .cid-ud9ULJIM3D .item-wrapper {
   position: relative;
